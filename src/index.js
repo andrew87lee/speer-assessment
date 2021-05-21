@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './sass/index.scss';
+
 import reportWebVitals from './reportWebVitals';
+import Hero from './components/Hero';
+import Speakers from './components/Speakers';
+import Yellow from './components/Yellow';
+import Perks from './components/Perks';
+import Reviews from './components/Reviews';
+import GetNow from './components/GetNow';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hero />
+    <Speakers />
+    <Yellow />
+    <Perks />
+    <Reviews />
+    <GetNow />
   </React.StrictMode>,
   document.getElementById('root')
 );
